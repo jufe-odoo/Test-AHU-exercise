@@ -5,7 +5,7 @@
 <field name="name">Test action</field>
 <field name="res_model">estate</field>
 <field name="view_mode">tree,form</field>
-<menuitem id="test_model_menu_action" action="test_model_action"
+<menuitem id="test_model_menu_action" action="test_model_action"/>
 </record>
 </data>
 </odoo>
