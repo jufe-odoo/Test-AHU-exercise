@@ -11,10 +11,10 @@ class Estate(models.Model):
     active = fields.Boolean(default=True)
     state = fields.Selection(
         selection=[
-        ('new', "New Offer")
-        ('offer_received', "Offer received")
-        ('offer_accepted', "Offer accepted")
-        ('sold', "Sold")
+        ('new', "New Offer"),
+        ('offer_received', "Offer received"),
+        ('offer_accepted', "Offer accepted"),
+        ('sold', "Sold"),
         ('cancel', "Cancelled")
     ],
     string="Status", readonly=True, copy=False, tracking=3, default='new')
