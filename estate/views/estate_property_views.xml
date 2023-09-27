@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<odoo>
 <data>
 <record id="test_model_action" model="ir.actions.act_window">
 <field name="name">Test action</field>
@@ -11,3 +12,4 @@
 </menuitem>
 </record>
 </data>
+</odoo>
